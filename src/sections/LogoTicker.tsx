@@ -3,6 +3,7 @@ import flutter from "@/assets/flutter.png";
 import firebase from "@/assets/firebase.png";
 import supabase from "@/assets/supabase.png";
 import maps from "@/assets/maps.png";
+import aws from "@/assets/aws.png";
 import unity from "@/assets/unity.png";
 import rc from "@/assets/rc.avif";
 import mongo from "@/assets/mongo.png";
@@ -34,6 +35,11 @@ export const LogoTicker = () => {
             />
             <Image
               src={maps}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={aws}
               alt="Acme Logo"
               className="logo-ticker-image"
             />
@@ -76,6 +82,11 @@ export const LogoTicker = () => {
             />
             <Image
               src={maps}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={aws}
               alt="Acme Logo"
               className="logo-ticker-image"
             />
