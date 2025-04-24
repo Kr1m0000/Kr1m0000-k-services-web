@@ -1,10 +1,12 @@
 "use client";
-import acmeLogo from "@/assets/logo-acme.png";
-import quantumLogo from "@/assets/logo-quantum.png";
-import echoLogo from "@/assets/logo-echo.png";
-import celestialLogo from "@/assets/logo-celestial.png";
-import pulseLogo from "@/assets/logo-pulse.png";
-import apexLogo from "@/assets/logo-apex.png";
+import flutter from "@/assets/flutter.png";
+import firebase from "@/assets/firebase.png";
+import supabase from "@/assets/supabase.png";
+import maps from "@/assets/maps.png";
+import unity from "@/assets/unity.png";
+import rc from "@/assets/rc.avif";
+import mongo from "@/assets/mongo.png";
+import next from "@/assets/next.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -26,64 +28,84 @@ export const LogoTicker = () => {
             }}
           >
             <Image
-              src={acmeLogo}
+              src={flutter}
               alt="Acme Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={quantumLogo}
+              src={maps}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={firebase}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={next}
               alt="Quantum Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={echoLogo}
+              src={mongo}
               alt="Echo Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={celestialLogo}
+              src={rc}
               alt="Celestial Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={pulseLogo}
+              src={supabase}
               alt="Pulse Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={apexLogo}
+              src={unity}
               alt="Apex Logo"
               className="logo-ticker-image"
             />
 
             {/* Second set of logos for animation */}
             <Image
-              src={acmeLogo}
+              src={flutter}
               alt="Acme Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={quantumLogo}
+              src={maps}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={firebase}
+              alt="Acme Logo"
+              className="logo-ticker-image"
+            />
+            <Image
+              src={next}
               alt="Quantum Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={echoLogo}
+              src={mongo}
               alt="Echo Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={celestialLogo}
+              src={rc}
               alt="Celestial Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={pulseLogo}
+              src={supabase}
               alt="Pulse Logo"
               className="logo-ticker-image"
             />
             <Image
-              src={apexLogo}
+              src={unity}
               alt="Apex Logo"
               className="logo-ticker-image"
             />
