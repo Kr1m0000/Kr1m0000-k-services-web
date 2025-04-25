@@ -14,8 +14,6 @@ export const Header = () => {
         </p>
         <div className="inline-flex gap-1 items-center">
           <Link href='/login'>
-
-
             <p>Commencez votre expérience</p>
           </Link>
           <ArrowRight className="h-4 w-4 inline-flex justify-center items-center" />

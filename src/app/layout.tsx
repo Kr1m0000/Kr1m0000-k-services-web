@@ -13,6 +13,27 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.png",
   },
+  openGraph: {
+    title: "K-Services",
+    description: "Digital solutions for web and mobile apps.",
+    url: "https://yourdomain.com", // Replace with your actual URL
+    siteName: "K-Services",
+    images: [
+      {
+        url: "/product-image.png", // Path to your thumbnail image
+        width: 1200,
+        height: 630,
+        alt: "K-Services preview image",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "K-Services",
+    description: "Digital solutions for web and mobile apps.",
+    images: ["/product-image.png"],
+  },
 };
 
 export default function RootLayout({
