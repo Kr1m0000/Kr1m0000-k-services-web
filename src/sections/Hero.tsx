@@ -29,7 +29,7 @@ export const Hero = () => {
       <div className="container">
         <div className="md:flex items-center">
           <div className="md:w-[478px]">
-            <div className="tag">Version 3.0 is here</div>
+            <div className="tag">Abd-Elkrim TIZA</div>
             <h1 className="text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6">
               Ne jamais faire Les choses à Moitié
             </h1>
