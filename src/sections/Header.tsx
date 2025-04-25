@@ -38,7 +38,7 @@ export const Header = () => {
               <a href="#">Aide</a>
               <Link href="/login">
   <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
-    Inscrivez-vous
+    Commencez
   </button>
 </Link>
 

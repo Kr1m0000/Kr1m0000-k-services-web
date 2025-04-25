@@ -36,7 +36,7 @@ export const Hero = () => {
               Commencez votre business en ligne, offrez-vous une infinité de possiblités et déployez-vous sur le marché
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Inscrivez-vous</button>
+              <button className="btn btn-primary">Commencez</button>
               <button className="btn btn-text gap-1">
                 <span>À propos de nous</span>
                 <ArrowIcon className="h-5 w-5" />
