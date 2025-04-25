@@ -2,6 +2,8 @@ import ArrowRight from "@/assets/arrow-right.svg";
 import Logo from "@/assets/logosaas.png";
 import Image from "next/image";
 import MenuIcon from "@/assets/menu.svg";
+import Link from "next/link";
+
 
 export const Header = () => {
   return (
@@ -28,14 +30,19 @@ export const Header = () => {
             
             <MenuIcon className="h-8 w-8 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black items-center">
-              <a href="#">À propos de nous</a>
+              <a href="/">À propos de nous</a>
               {/* <a href="#"></a> */}
               <a href="#">Clients</a>
               <a href="#">Updates</a>
+             
               <a href="#">Aide</a>
-              <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex align-items justify-center tracking-tight">
-                Inscrivez-vous 
-              </button>
+              <Link href="/login">
+  <button className="bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight">
+    Inscrivez-vous
+  </button>
+</Link>
+
+              
             </nav>
           </div>
         </div>

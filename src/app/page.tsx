@@ -10,14 +10,14 @@ import { Footer } from "@/sections/Footer";
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <LogoTicker />
       <ProductShowcase />
       <Pricing />
       <Testimonials />
       <CallToAction />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
