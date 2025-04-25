@@ -35,7 +35,7 @@ export function AuthForm({ className, ...props }: React.ComponentProps<"div">) {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder="email@example.com"
                   required
                 />
               </div>
