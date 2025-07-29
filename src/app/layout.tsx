@@ -8,30 +8,30 @@ import { Footer } from "@/sections/Footer";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "K-Services",
-  description: "Digital solutions services for web and mobile Apps",
+  title: "ACT Solutions Inc.",
+  description: "Translation, Reinvented by AI & Cloud",
   icons: {
-    icon: "/favicon.png",
+    icon: "/act.png",
   },
   openGraph: {
-    title: "K-Services",
-    description: "Digital solutions for web and mobile apps.",
+    title: "ACT Solutions Inc.",
+    description: "Translation, Reinvented by AI & Cloud.",
     url: "https://krimou.vercel.app", // Replace with your actual URL
-    siteName: "K-Services",
+    siteName: "ACT Solutions Inc.",
     images: [
       {
         url: "/product-image.png", // Path to your thumbnail image
         width: 1200,
         height: 630,
-        alt: "K-Services preview image",
+        alt: "ACT Solutions Inc.",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "K-Services",
-    description: "Digital solutions for web and mobile apps.",
+    title: "ACT Solutions Inc.",
+    description: "Translation, Reinvented by AI & Cloud.",
     images: ["/product-image.png"],
   },
 };
