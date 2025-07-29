@@ -47,7 +47,7 @@ const pricingTiers = [
       "Design moderne",
       "Intégrations APIs",
       "Support avancé",
-      
+
     ],
   },
 ];
@@ -57,10 +57,10 @@ export const Pricing = () => {
     <section className="py-24 bg-white">
       <div className="container">
         <div className="section-heading">
-          <h2 className="section-title">Nos plans</h2>
+          <h2 className="section-title">Our plans</h2>
           <p className="section-description mt-5">
-  Nous proposons une gamme de solutions adaptées à vos besoins, au meilleur rapport qualité-prix. Que vous recherchiez une application mobile ou un site web, notre équipe saura vous satisfaire.
-</p>
+            We offer flexible, scalable solutions designed to meet your translation needs—at the best value. Whether you're looking for API access, a self-service platform, or custom AI model training, we've got you covered.
+          </p>
 
         </div>
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
@@ -110,7 +110,7 @@ export const Pricing = () => {
                 </div>
                 <div className="flex items-baseline gap-1 mt-[30px]">
                   <span className="text-4xl font-bold tracking-tighter leading-none">
-                   {isCustom ? `+${monthlyPrice}` : monthlyPrice}
+                    {isCustom ? `+${monthlyPrice}` : monthlyPrice}
                   </span>
                   <span className="tracking-tight font-bold text-grey/10">
                     /projet

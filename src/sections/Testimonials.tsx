@@ -128,10 +128,9 @@ export const Testimonials = () => {
           <div className="flex justify-center">
             <div className="tag">Testimonials</div>
           </div>
-          <h2 className="section-title mt-5">Nos retours clients</h2>
+          <h2 className="section-title mt-5">What Our Clients Say</h2>
           <p className="section-description mt-5">
-            Des design intuitufs aux fonctions backend avancées notre équipe fait de son mieux pour vous satisfaire
-        
+            From intuitive interfaces to advanced AI translation capabilities, our team is dedicated to delivering solutions that exceed expectations.
           </p>
         </div>
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">

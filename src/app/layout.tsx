@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "K-Services",
     description: "Digital solutions for web and mobile apps.",
-    url: "https://yourdomain.com", // Replace with your actual URL
+    url: "https://krimou.vercel.app", // Replace with your actual URL
     siteName: "K-Services",
     images: [
       {

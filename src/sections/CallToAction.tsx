@@ -22,9 +22,9 @@ export const CallToAction = () => {
     >
       <div className="container">
         <div className="section-heading relative">
-          <h2 className="section-title">N'attendez plus</h2>
+          <h2 className="section-title">Do not ever wait</h2>
           <p className="section-description mt-5">
-            Inscrivez-vous et allez de l'avant. Bénéficiez de nos divers services digitals
+          Sign up today and take advantage of our powerful AI translation services to move your content forward—faster, smarter, and at scale.
           </p>
           <motion.img
             src={starImage.src}
@@ -47,10 +47,10 @@ export const CallToAction = () => {
         </div>
         <div className="flex gap-2 mt-10 justify-center">
           <Link href='/login'>
-            <button className="btn btn-primary">Commencez</button>
+            <button className="btn btn-primary">Start now</button>
           </Link>
           <button className="btn btn-text gap-1">
-            <span>À propos de nous</span>
+            <span>About</span>
             <ArrowRight className="h-5 w-5" />
           </button>
         </div>

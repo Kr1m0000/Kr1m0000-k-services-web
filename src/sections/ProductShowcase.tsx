@@ -1,5 +1,5 @@
 "use client";
-import productImage from "@/assets/product-image.png";
+import productImage from "@/assets/tasuqilt.png";
 import pyramidImage from "@/assets/pyramid.png";
 import tubeImage from "@/assets/tube.png";
 import Image from "next/image";
@@ -21,17 +21,17 @@ export const ProductShowcase = () => {
       <div className="container">
         <div className="section-heading">
           <div className="flex justify-center">
-            <div className="tag">L' E-Commerce à votre portée</div>
+            <div className="tag">AI-Powered Translation at Your Fingertips</div>
           </div>
           <h2 className="section-title mt-5">
-            Une solution efficace pour vos commandes
+            A Smarter Way to Handle Multilingual Content
           </h2>
           <p className="section-description mt-5">
-            Assurez la traçabilité de vos commandes et une meilleure experience avec vos clients
+            Ensure translation accuracy, content traceability, and deliver a seamless experience across global audiences.
           </p>
         </div>
         <div className="relative">
-          <Image src={productImage} alt="Product Image" className="mt-10" />
+        <Image src={productImage} alt="Product Image" className="mt-10 rounded-3xl" />
           <motion.img
             src={pyramidImage.src}
             alt="Pyramid Image"
